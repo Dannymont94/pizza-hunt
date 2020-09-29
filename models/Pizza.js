@@ -20,7 +20,7 @@ const PizzaSchema = new Schema(
     comments: [
       {
         type: Schema.Types.ObjectId,
-        refs: 'Comment'
+        ref: 'Comment'
       }
     ]
   },
